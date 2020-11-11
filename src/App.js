@@ -1,18 +1,15 @@
 import './App.css';
-import Header from './components/Header';
-import Hello from './components/Hello';
-import Content from './components/Content';
+
+import Card from "./components/Card";
 
 
 function App() {
-  return (
+  return ( 
     <>
-    <Header />
-    <Hello />
-    <Content />
+    <Card name="Tobolu Petro Phl" institution="Universitas Klabat"address="Yordan"phoneNumber="0874723775976"/>
+    <Card />
     </>
   );
 }
-
 
 export default App;
